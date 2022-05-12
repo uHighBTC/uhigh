@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main()
+{
+	int a,b , isum , idiff;
+    float n,m , fsum , fdiff;
+    printf("Enter the Interger Value:");
+    scanf ("%d %d",&a, &b);
+    printf("Enter the Float Value:");
+    scanf("%f %f", &n,&m);
+    isum = a + b;
+    idiff = a - b;
+    fsum = n + m;
+    fdiff = n - m;
+    printf("Sum of Integer:%d\nDifference of Integer:%d \nSum of Float:%.1f \nDIfference of FLoat:%.1f", isum,idiff,fsum,fdiff);
+}
